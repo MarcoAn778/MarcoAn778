@@ -37,7 +37,7 @@
 <br/>
 
 <a href="https://github.com/MarcoAn778" title="Perfil de Marco">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Marco&theme=dracula&show_icons=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MarcoAn778&theme=dracula&show_icons=true" />
 </a>
 
 ## Onde me encontrar
