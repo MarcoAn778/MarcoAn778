@@ -44,5 +44,4 @@
 
 [![Linkedin](https://img.shields.io/badge/-MarcoAntonio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/duarte-marco/)](https://www.linkedin.com/in/duarte-marco/)
 [![Gmail Badge](https://img.shields.io/badge/-marco.duoli2@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:marco.duoli2@gmail.com)](mailto:marco.duoli2@gmail.com)
-[![GitHub](https://img.shields.io/github/followers/MarcoAn778?label=follow&style=social)](https://github.com/MarcoAn778)
 
