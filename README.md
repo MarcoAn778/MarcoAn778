@@ -51,5 +51,5 @@
 
 ### 🐍 Contribuições
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MarcoAn778/MarcoAn778/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+  <img src="https://raw.githubusercontent.com/MarcoAn778/MarcoAn778/output/dist/github-contribution-grid-snake.svg" alt="snake animation"/>
 </div>
