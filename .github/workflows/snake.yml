@@ -2,8 +2,8 @@ name: Generate Snake
 
 on:
   schedule: 
-    - cron: "59 23 * * *"
-  workflow_dispatch: 
+    - cron: "59 23 * * *" 
+  workflow_dispatch:  
 
 jobs:
   build:
@@ -19,10 +19,21 @@ jobs:
           github_user_name: MarcoAn778
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Publicar no branch output
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Configurar Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Criar branch output e commitar
+        run: |
+          git fetch origin
+          if git show-ref --verify --quiet refs/heads/output; then
+            git checkout output
+          else
+            git checkout -b output
+          fi
+          git add dist/github-contribution-grid-snake.svg
+          git commit -m "Atualiza cobrinha" || echo "Sem alterações para commitar"
+          git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
